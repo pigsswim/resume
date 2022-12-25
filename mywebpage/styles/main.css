@@ -1,0 +1,134 @@
+
+.mywork{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  row-gap: 20px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+@media (max-width: 750px){
+  .mywork{
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (min-width: 950px){
+  .mywork{
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+img{
+  width: 100%;
+  transition: opacity 0.15s;
+}
+
+img:hover{
+  opacity: 0.6;
+
+}
+
+
+.profile-info{
+  display:grid;
+  grid-template-columns: 30px 1fr;
+  align-items: start;
+  text-align: start;
+  gap: 4px;
+  color: #777b7e;
+}
+
+.profile-info img{
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+  border-radius: 50px;
+}
+
+.signature{
+  font-family: cursive;
+  text-align: end;
+}
+
+.skill-list{
+  display:flex;
+  flex-direction: column;
+  margin-left: 40px;
+  margin-right:40px;
+  font-family: caveat;
+  font-size: 20px;
+  row-gap: 20px;
+
+}
+
+.skill-table,
+.skill-info{
+  height:30px;
+  display:flex;
+  flex-direction: row;
+  margin-left: 40px;
+  margin-right:40px;
+  font-family: caveat;
+  font-size: 20px;
+  row-gap: 20px;
+  box-shadow: 0px 4px 2px -2px lightgray;
+}
+
+.skill-table{
+  font-family:arial;
+  color: gray;
+}
+.skill-name{
+  width: 100px;
+  min-width: 100px;
+}
+
+.skill-level{
+  flex:1;
+  min-width: 100px;
+  padding-right:20px;
+
+}
+
+.skill-compare{
+  flex:1;
+  min-width:100px;
+}
+
+.skill-eval{
+  flex:2;
+}
+
+progress{
+ width: 100%;
+}
+
+.education-container{
+  display:grid;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.education-container-list-title{
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  align-items: center;
+  
+}
+
+.school-logo{
+  width: 60px;
+}
+
+.school-logo-picture{
+  width:100%;
+  object-fit: cover;
+  object-position:left;
+}
+
+.education-container-info{
+  display: grid;
+  flex:1;
+}
