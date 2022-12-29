@@ -1,13 +1,18 @@
 
 .header{
   position: fixed;
-  background-color: white;;
+  background-color: white;
   left: 0;
   right: 0;
   top: 0;
   margin-top: 0px;
   z-index: 100;
 }
+
+.myname{
+  position: relative;
+}
+
 
 h1{
   font-size: 50px;
@@ -64,6 +69,7 @@ a{
   padding: 6px 10px 6px 10px;
   background-color: white;
 }
+
 
 
 
