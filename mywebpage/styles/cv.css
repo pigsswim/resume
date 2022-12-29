@@ -1,0 +1,111 @@
+.CV-header,
+.body-section{
+  display: flex;
+  flex-direction: row;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+h2{
+  font-family: 'Times New Roman', Times, serif;
+}
+.left{
+  flex:1;
+
+}
+
+
+.right{
+  flex: 2;
+}
+
+.profile-picture{
+  width: 50%;
+  text-align: center;
+ 
+}
+
+.phone{
+  display: grid;
+  grid-template-columns:40px 300px;
+  gap: 5px;
+  margin:0px;
+  align-items: center;
+
+}
+
+.sub-intro-2{
+  display: grid;
+  grid-template-columns:40px 700px;
+  gap: 5px;
+  margin:0px;
+  align-items: center;
+
+}
+
+.contact-icons{
+  width: 30px;
+}
+
+.phone-number{
+  margin:0px;
+}
+
+.place-lived{
+  padding-top: 6px;
+}
+
+.sub-intro-3{
+  display: grid;
+  grid-template-columns:40px 700px;
+  gap: 5px;
+  margin:0px;
+  align-items: top;
+
+}
+
+.background{
+  margin-top: 28px;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 20px;
+  height: 600px;
+}
+
+.experience-container{
+  display: flex;
+  flex-direction: column;
+
+}
+
+.experience-list{
+  display: flex;
+  flex:1;
+  flex-direction: column;
+  height: 400px;
+
+}
+
+.experience-info-container{
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  height: 300px;
+}
+
+.experience-title{
+  display: flex;
+  flex:1;
+  flex-direction: row;
+}
+
+.experience-name{
+  flex: 1;
+  max-width: 600px;
+
+}
+
+.experience-year{
+  width: 250px;
+}
